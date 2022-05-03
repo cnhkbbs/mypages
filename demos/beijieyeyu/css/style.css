@@ -1,0 +1,73 @@
+@font-face {
+	font-family: '幼圆';
+	src: url(../fonts/SIMYOU.TTF);
+}
+
+video#bgvid {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -9999;
+	background-size: cover;
+}
+
+video::-webkit-media-controls {
+	display: none !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mainitems {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	width: 60%;
+	height: 80%;
+	box-shadow: 0 5px 15px rgba(20, 20, 20, 0.5);
+	border-radius: 7%;
+	backdrop-filter: blur(20px);
+}
+
+.logo {
+	padding-top: 9%;
+	padding-bottom: 1%;
+}
+
+.maintitle {
+	color: white;
+	font-family: "幼圆";
+	font-size: 320%;
+}
+
+.secondtitle {
+	color: azure;
+	font-size: 150%;
+	font-family: "楷体";
+}
+
+.itemlinks {
+	color: white;
+	margin: 30px;
+	font-size: 200%;
+}
+
+.itemlinks:hover {
+	border-bottom: 1px solid white;
+}
+
+.table1 {
+	padding-top: 10%;
+}
