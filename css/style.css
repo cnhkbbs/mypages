@@ -17,7 +17,7 @@
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-position: center 0;
-	background-image: url(./img/bg.jpg);
+	background-image: url(../img/bg.jpg);
 }
 
 .mui-bar {
